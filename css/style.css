@@ -14,3 +14,19 @@
     width: 1000px;
     max-width: 100%;
   }
+
+  .products > .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem 0 ;
+  }
+
+  .products .product-card{
+    flex: 1 0 30%;
+
+    background-color: grey;
+    min-height: 300px;
+  }
