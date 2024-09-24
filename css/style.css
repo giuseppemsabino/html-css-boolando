@@ -31,6 +31,7 @@
     justify-content: center;
     gap: 2rem;
     padding: 5rem 0 ;
+    
   }
 
   .products .product-card{
@@ -38,6 +39,28 @@
 
     background-color: grey;
     min-height: 300px;
+    position: relative;
+  }
+
+  .card-spam{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 68px;
+    left: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  .card-discount{
+   background-color: red;
+   padding: 2px 4px;
+    margin-right: 5px;
+  }
+  .green-spam{
+    background-color: green;
+    padding: 2px 4px;
+    margin-right: 5px;
   }
 
   .brand{
