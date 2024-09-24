@@ -37,7 +37,7 @@
   .products .product-card{
     flex: 1 0 30%;
 
-    background-color: grey;
+    background-color: transparent;
     min-height: 300px;
     position: relative;
     cursor: pointer;
@@ -48,12 +48,24 @@
     left: 0;
     top: 0;
     opacity: 0;
+    transition: all 0.8s ease;
   }
 
   .hover-img:hover{
     opacity: 1;
   }
- 
+
+  .card-header{
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    right: 0;
+    padding: 5px 8px;
+    z-index: 2;
+  }
+  .card-header:hover{
+    color: red;
+  }
 
   .card-spam{
     display: flex;
@@ -69,15 +81,17 @@
    background-color: red;
    padding: 2px 4px;
     margin-right: 5px;
+    color: rgb(246, 239, 227);
   }
   .green-spam{
     background-color: green;
     padding: 2px 4px;
     margin-right: 5px;
+    color: rgb(246, 239, 227);
   }
 
   .brand{
-    color: lightgray;
+    color: gray;
   }
 
   .article{
@@ -90,5 +104,5 @@
   .actual-price > .orig-price{
     text-decoration: solid;
     text-decoration-line:line-through;
-    color: lightgray;
+    color: gray;
   }
