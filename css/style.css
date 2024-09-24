@@ -40,7 +40,20 @@
     background-color: grey;
     min-height: 300px;
     position: relative;
+    cursor: pointer;
   }
+
+  .hover-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .hover-img:hover{
+    opacity: 1;
+  }
+ 
 
   .card-spam{
     display: flex;
