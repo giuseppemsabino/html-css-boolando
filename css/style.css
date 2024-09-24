@@ -5,6 +5,14 @@
     margin: 0;
     padding: 0;
   }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  img{
+    max-width: 100%;
+  }
   
   /* # UTILS */
   
@@ -14,6 +22,7 @@
     width: 1000px;
     max-width: 100%;
   }
+
 
   .products > .container{
     display: flex;
@@ -29,4 +38,21 @@
 
     background-color: grey;
     min-height: 300px;
+  }
+
+  .brand{
+    color: lightgray;
+  }
+
+  .article{
+    font-weight: bolder;
+  }
+
+  .actual-price{
+    color: rgb(214, 37, 37);
+  }
+  .actual-price > .orig-price{
+    text-decoration: solid;
+    text-decoration-line:line-through;
+    color: lightgray;
   }
