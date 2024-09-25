@@ -13,6 +13,28 @@
   img{
     max-width: 100%;
   }
+  header{
+    background-color:  #ff6900;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .items-list{
+    padding: 0 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+  }
+
+  
   
   /* # UTILS */
   
@@ -43,13 +65,22 @@
   }
 
   .header-items {
-    width: 40%;
+    width: 20%;
   }
   
   .logo-container {
-    width: 109%;
-    /* border: 1px dashed black; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
     
+    /* border: 1px dashed black; */
+  }
+  .logo{
+    width: 150px;
+  }
+  .icon-list{
+    display: flex;
+    justify-content: flex-end;
   }
  
 
